@@ -1,1 +1,1 @@
-"# Digi-Zando" 
+"# Digi-Zando is a mobile app where people can buy and sell online." 
