@@ -7,7 +7,7 @@ export default function Header(){
     return(
          
         <View>
-            <StatusBar style={{backgroundColor : 'red'}}> 
+            <StatusBar > 
             
             </StatusBar> 
         
@@ -27,6 +27,7 @@ export default function Header(){
         
     )
 }
+
  const styles = StyleSheet.create({
      header:{
          backgroundColor:'grey',
