@@ -2,15 +2,23 @@ import React from 'react';
 import {Ionicons} from 'react-native-vector-icons'
 import {StyleSheet, View} from 'react-native'
 
-export default function Footer() {
+import Home from '../screens/Home'
+
+
+export default function Footer(props) {
+/*
+const {Navigator, Screen}= createStackNavigator()
+    const goTo = ()=> {
+       console.log(props)
+    }*/
   return (
     
         <View style={styles.footer}>
-                    <Ionicons name='notifications' size={34}/>  
-                    <Ionicons name='home' size={34}/>  
-                    <Ionicons name='chatbubbles' size={34}/>  
+                    <Ionicons  name='notifications' size={34}/>  
+                    <Ionicons  name='home' size={34}/>  
+                    <Ionicons  name='chatbubbles' size={34}/>  
                     <Ionicons name='heart' size={34}/>  
-                </View>
+    </View>
     
   );
 }

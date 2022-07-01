@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { View, Text, Image, Dimensions, Button, StyleSheet, TouchableHighlight } from 'react-native';
 
 import {Ionicons} from 'react-native-vector-icons'
@@ -7,9 +7,9 @@ export default function ProductList(props) {
   let {width}= Dimensions.get('window');
   let {name, categorie, price, countInStock, image} = props
 
-  const [like, setLike] = ReACT.useState(false)
+  const [like, setLike] = React.useState(false)
   let item= {
-     image: require('../assets/training.jpeg'),
+     image: require('../../assets/training.jpeg'),
     text: 'Ketch'
     }
 
@@ -21,7 +21,7 @@ export default function ProductList(props) {
   
    <View style= {styles.productCard}>
     
-        <Ionicons name='like' style={styles.LikeBtn} onPress={() => setLike(!like)}>
+        <Ionicons name='heart' style={styles.LikeBtn} onPress={() => setLike(!like)}>
           
         </Ionicons> 
         <Text style= {styles.iconeTopRight}>
@@ -41,7 +41,7 @@ export default function ProductList(props) {
     )
 }
 
-const styles = StyleSheet.create(
+const styles = StyleSheet.create({
     productCard:{
       width:'50%',
       backgroundColor: 'white',
@@ -64,5 +64,5 @@ const styles = StyleSheet.create(
         width: '100%'
       }
     
-  
+} 
 )

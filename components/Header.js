@@ -15,12 +15,12 @@ export default function Header(){
                 <View style={styles.header__icons}>
                     <Ionicons name='menu' size={35}/>  
                     <Text style={{marginLeft:20, fontSize:19, fontWeight:'bold', marginRight:'auto'}}>Home</Text>
-                    <Ionicons name='cart' size={30}/>  
-                    <Ionicons style={{marginRight:4, marginLeft:17}} name='person' size={28}/>  
+                    <Ionicons name='search' size={30}/>  
+                    <Ionicons style={{marginRight:4, marginLeft:17}} name='cart' size={28}/>  
                 </View>  
-                <View style={styles.searchBar}>
+                {/* <View style={styles.searchBar}>
                     <TextInput placeholder='Search'/>
-                </View>
+                </View> */}
            </View>
         
         </View>
