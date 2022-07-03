@@ -1,7 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import {Container, Heading, Text, Box, Image} from 'native-base'
-import {Dimensions,} from 'react-native'
+import {Dimensions,ScrollView} from 'react-native'
+
 import Swiper from 'react-native-swiper/src'
+
 
 let {width}= Dimensions.get('window')
 

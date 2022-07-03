@@ -97,7 +97,7 @@ if (categories[0].selected === true) {
     
     <HStack  space="3" alignItems='center' style= {styles.Slide_Categorie} >
 
-    <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+    <ScrollView style={{width:'100vw'}} horizontal showsHorizontalScrollIndicator={false}>
     {/* Loops start here */}
     {categories.map((item , index) => (
      
@@ -127,7 +127,8 @@ const styles = StyleSheet.create({
     Slide_Categorie: {
         flexDirection: 'row',
         justifyContent: 'space-around',
-        alignItems: 'center'
+        alignItems: 'center',
+        width:'100vw'
         
     },
     Categorie:{

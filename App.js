@@ -31,6 +31,7 @@ export default function App() {
     {/* <View style={styles.container}>
     <Home/>
     </View> */}
+    
     </NativeBaseProvider>
   );
 }

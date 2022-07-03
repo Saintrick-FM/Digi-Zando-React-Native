@@ -3,7 +3,7 @@ import { View, Text, Image, Dimensions, Button, StyleSheet, ScrollView } from 'r
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import SlidesCategories from '../components/Home/SlidesCategories'
-import ProductList from '../components/Home/ProductList'
+import ProductContainer from '../components/Home/ProductContainer'
 import Banner from '../components/Home/Banner'
 
 export default function Home() {
@@ -11,11 +11,12 @@ export default function Home() {
     <View style={{flex:1}}>
       <Header/>
       <SlidesCategories/>
-      <Banner/>
-       {/* <ScrollView >
+      {/*<Banner/>
+        <ScrollView >
         <ProductList/>
         <ProductList/>
        </ScrollView> */}
+      <ProductContainer/>
       <Footer/>
     </View>
   )

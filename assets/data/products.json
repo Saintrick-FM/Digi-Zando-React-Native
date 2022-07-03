@@ -1,0 +1,39 @@
+  [
+  {
+  "key":1,
+  "image": "https://wallpaperaccess.com/full/317501.jpg",
+  "name": "Air force one",
+  "price": 12000,
+  "countInStock": 5,
+  "likes": 0,
+  "categorie": "Baskets",
+  "statut": "new"
+  },{
+  "key":2,
+  "image": "https://www.holidify.com/images/cmsuploads/compressed/Bangalore_citycover_20190613234056.jpg",
+  "name": "Nike Tee shirt",
+  "price": 5000,
+  "countInStock": 35,
+  "likes": 50,
+  "categorie": "Tee-shirts",
+  "statut": "solde"
+  }, {
+    "key":3,
+    "image": "https://wallpaperaccess.com/full/317501.jpg",
+    "name": "Boucle d'oreille",
+    "price": 1000,
+    "countInStock": 15,
+    "likes": 100,
+    "categorie": "Parrures",
+    "statut": "new"
+  }, {
+    "key":4,
+    "image": "https://www.holidify.com/images/cmsuploads/compressed/Bangalore_citycover_20190613234056.jpg",
+    "name": "Bracelet doré",
+    "price": 500,
+    "countInStock": 25,
+    "likes": 15,
+    "categorie": "Parrures",
+    "statut": "solde"
+  }
+]
