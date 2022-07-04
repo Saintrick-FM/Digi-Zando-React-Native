@@ -28,14 +28,14 @@ console.log(" products set in ProductContainer "+  JSON.stringify(products))
      
       <FlatList
         //keyExtractor={({item}) => item.key}
-        style={{width:'100vw', backgroundColor:'red' }}
+        style={{width:'100%', marginTop:10 }}
         data={products}
-        
-        renderItem={(item) => (
+        numColumns={2}
+        renderItem={({item}) => (
            <ProductCard 
-            style={{width:'50vw' }}
+            style={{width:'50%', borderRadius:20 }}
           key={item.key} 
-          item= {item}
+          product= {item}
           />
         )}
         
