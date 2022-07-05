@@ -28,7 +28,8 @@ console.log(" products set in ProductContainer "+  JSON.stringify(products))
      
       <FlatList
         //keyExtractor={({item}) => item.key}
-        style={{width:'100%', marginTop:10 }}
+        
+        style={{width:'100%', height:'100%', flex:1, paddingTop:15, backgroundColor:'#bae6fd' }}
         data={products}
         numColumns={2}
         renderItem={({item}) => (

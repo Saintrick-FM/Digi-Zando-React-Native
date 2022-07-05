@@ -9,14 +9,14 @@ import Banner from '../components/Home/Banner'
 export default function Home() {
   return (
     <View style={{flex:1}}>
-      <Header/>
-      <SlidesCategories/>
+      <Header />
+      <SlidesCategories />
       {/*<Banner/>
         <ScrollView >
         <ProductList/>
         <ProductList/>
        </ScrollView> */}
-      <ProductContainer/>
+      <ProductContainer />
       <Footer/>
     </View>
   )

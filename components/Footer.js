@@ -26,12 +26,12 @@ const {Navigator, Screen}= createStackNavigator()
 const styles = StyleSheet.create({
     footer: {
         flexDirection:'row',
+        backgroundColor:'#bae6fd',
         justifyContent: 'space-between',
         alignItems:'center',
         position: 'absolute',
         bottom: 0,
         width: '100%',
-        backgroundColor: 'grey',
         color: 'white',
         paddingTop: 4,
         paddingBottom: 4,

@@ -30,7 +30,7 @@ export default function Header(){
 
  const styles = StyleSheet.create({
      header:{
-         backgroundColor:'grey',
+         backgroundColor:'#bae6fd',
          width:'100%',
          right: 0,
          left: 0,
