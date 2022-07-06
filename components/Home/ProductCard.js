@@ -7,11 +7,10 @@ import {Ionicons} from 'react-native-vector-icons'
 var {width}= Dimensions.get('window')
 
 export default function ProductCard(props) {
-const {key,image,name,price,countInStock,likes,categorie,statut}= props.product
+const {key,image,name,price,countInStock,likes,categorie,statut} = props.product
 
 const [liked, setLiked]=React.useState(false)
 const [cart, setCart]=React.useState([])
-
 
 function onClickLike(){
   console.log('like cliqué '+ liked)

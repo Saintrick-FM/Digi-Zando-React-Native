@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import {NativeBaseProvider} from 'native-base'
 
 import Home from './screens/Home'
+import Cart from './screens/Cart'
 
 //import RootNavigation from '@react-navigation/native'
 import {NavigationContainer} from '@react-navigation/native';
@@ -15,13 +16,13 @@ export default function App() {
     const screenOptions= {
         headerShown: false
     }
-
-    // Render JSX
+// Render JSX
   return (
     <NativeBaseProvider >
     <NavigationContainer>
     <Navigator initialRouteName='Home'>
       <Screen name='Home' options={screenOptions} component={Home}/>
+      <Screen name='Cart' component={Cart}/>
     </Navigator> 
     {/* <RootNavigation initialRouteName='Home'> 
     </RootNavigation>*/}

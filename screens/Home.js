@@ -6,13 +6,16 @@ import SlidesCategories from '../components/Home/SlidesCategories'
 import ProductContainer from '../components/Home/ProductContainer'
 import Banner from '../components/Home/Banner'
 
+
+
 export default function Home() {
   return (
     <View style={{flex:1}}>
       <Header />
+      <Banner />
       <SlidesCategories />
-      {/*<Banner/>
-        <ScrollView >
+      
+        {/*<ScrollView >
         <ProductList/>
         <ProductList/>
        </ScrollView> */}
